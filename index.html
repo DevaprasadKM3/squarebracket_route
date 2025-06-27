@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RouteX - Migration Services</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Left: Brand -->
+
+<nav class="navbar navbar-light bg-white shadow-sm">
+  <div class="container d-flex justify-content-between align-items-center">
+
+    <!-- Brand -->
+    <a class="navbar-brand fw-bold" href="#">
+      <i class="fas fa-plane me-2"></i>RouteX
+    </a>
+
+    <!-- Center nav for large screens -->
+    <div class="d-none d-lg-flex justify-content-center align-items-center" id="navbarNav">
+      <ul class="navbar-nav flex-row">
+        <li class="nav-item"><a class="nav-link fw-medium" href="#">HOME</a></li>
+        <li class="nav-item"><a class="nav-link fw-medium" href="#">ABOUT US</a></li>
+        <li class="nav-item"><a class="nav-link fw-medium" href="#">STORY</a></li>
+        <li class="nav-item"><a class="nav-link fw-medium" href="#">VISA</a></li>
+        <li class="nav-item"><a class="nav-link fw-medium" href="#">BLOG</a></li>
+        <li class="nav-item"><a class="nav-link fw-medium" href="#">PAGE</a></li>
+        <li class="nav-item"><a class="nav-link fw-medium" href="#">CONTACT</a></li>
+      </ul>
+    </div>
+
+    <!-- Help Info on large screens -->
+    <div class="d-none d-lg-flex help-info text-end ms-3">
+      <div class="info-line">
+        <i class="fa-solid fa-phone"></i>
+        <a class="dropdown-item p-0" href="#">Need Help?</a>
+      </div>
+      <span class="fw-semibold small">123-456-7890</span>
+    </div>
+
+    <!-- Hamburger for small screens -->
+    <div class="dropdown d-lg-none ms-auto">
+      <button class="btn btn-outline-dark dropdown-toggle" type="button" id="hamburgerMenu" data-bs-toggle="dropdown" aria-expanded="false">
+        <i class="fas fa-bars"></i>
+      </button>
+      <ul class="dropdown-menu dropdown-menu-end custom-dropdown" aria-labelledby="hamburgerMenu">
+        <li><a class="dropdown-item" href="#">HOME</a></li>
+        <li><a class="dropdown-item" href="#">ABOUT US</a></li>
+        <li><a class="dropdown-item" href="#">STORY</a></li>
+        <li><a class="dropdown-item" href="#">VISA</a></li>
+        <li><a class="dropdown-item" href="#">BLOG</a></li>
+        <li><a class="dropdown-item" href="#">PAGE</a></li>
+        <li><a class="dropdown-item" href="#">CONTACT</a></li>
+        <li>
+          <a class="dropdown-item d-flex align-items-center" href="#">
+            <i class="fa-solid fa-phone me-2"></i>Need Help?
+          </a>
+          <div class="text-muted ps-4 pb-2 small">123-456-7890</div>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Hero Section -->
+      <section id="home" class="hero-section">
+        <div class="hero-background"></div>
+        <div class="hero-overlay"></div>
+        <div class="container position-relative">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-8">
+                    <h1 class="hero-title">Journey with Confidence<br><span class="text-primary">Migrate</span> with Us</h1>
+                    <p class="hero-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et amet risus nunc. Duis egestas ac ante sed tincidunt.</p>
+                    <a href="#about" class="btn btn-primary btn-lg mt-4">
+                        Learn More <i class="bi bi-arrow-right ms-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-decorations">
+            <div class="decoration decoration-1"></div>
+            <div class="decoration decoration-2"></div>
+            <div class="decoration decoration-3"></div>
+        </div>
+    </section>
+<!-- About Us Section -->
+<section class="about-section py-5">
+  <div class="container">
+    <div class="row align-items-center g-4">
+
+      <!-- Image Grid 2x2 layout -->
+      <div class="col-lg-6">
+        <div class="about-images">
+          <div class="row g-3">
+            <!-- Top-left image -->
+            <div class="col-6">
+              <div class="image-box">
+                <img src="assets/bus.jpg" alt="Professional consultation" class="img-fluid rounded shadow image-zoom w-100 h-100">
+              </div>
+            </div>
+
+            <!-- Top-right image -->
+            <div class="col-6">
+              <div class="image-box">
+                <img src="assets/exploreMen.jpg" alt="Happy client" class="img-fluid rounded shadow image-zoom w-100 h-100">
+              </div>
+            </div>
+
+            <!-- Bottom-left image -->
+            <div class="col-6">
+              <div class="image-box">
+                <img src="assets/flightsunset.jpg" alt="Team meeting" class="img-fluid rounded shadow image-zoom w-100 h-100">
+              </div>
+            </div>
+
+            <!-- Bottom-right: Experience Badge -->
+            <div class="col-6">
+              <div class="image-box d-flex flex-column justify-content-center align-items-center text-white rounded shadow experience-badge">
+                <h3 class="mb-1">10+</h3>
+                <p class="mb-0 text-center">Years Of<br>Experience</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Side Text Content -->
+      <div class="col-lg-6">
+        <h6 class="section-label fw-bold">About Us <i class="fab fa-telegram-plane"></i></h6>
+        <h2 class="section-title">Unknown Wanderlust<br>Your Journey Into</h2>
+        <p class="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, alias dolorum tempore porro dolore provident vel, veniam, ipsum commodi explicabo nesciunt architecto aut! Animi, itaque!</p>
+
+        <!-- Feature items -->
+        <div class="features-row d-flex flex-wrap justify-content-between gap-3 mt-4">
+          <div class="feature-box d-flex align-items-start">
+            <div class="me-2 text-success fs-5">✅</div>
+            <div>
+              <strong>Safety Guides</strong>
+              <p class="mb-0 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, sapiente?</p>
+            </div>
+          </div>
+          <div class="feature-box d-flex align-items-start">
+            <div class="me-2 text-success fs-5">✅</div>
+            <div>
+              <strong>Passport Assistance</strong>
+              <p class="mb-0 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, odio!</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="btn-about">
+          <a href="#" class="btn btn-success mt-4 px-4 py-2 rounded-pill">Read More →</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+    <!-- Services Section -->
+    <section class="services-section">
+        <div class="section-header">
+            <h6>OUR SERVICES <i class="fab fa-telegram-plane"></i></h6>
+            <div class="section-title">
+                <h1>Adventure Unleashed <br> Discover Your Next</h1>
+                <div class="controls">
+                    <button><i class="fa-solid fa-arrow-left"></i></button>
+                    <button><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="section-content">
+            <div class="card">
+                <div class="card-header">
+                    <span class="card-icon">
+                        <i class="fas fa-globe"></i>
+                    </span>
+                    <h2>Food And Wine Tours</h2>
+                </div>
+                <div class="card-content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia possimus, repudiandae corrupti atque amet doloribus quisquam at distinctio, corporis nihil aliquam iure obcaecati reiciendis aperiam, rem impedit adipisci quos ipsam!</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <span class="card-icon">
+                        <i class="fas fa-plane-departure"></i>
+                    </span>
+                    <h2>Travel Opportunities</h2>
+                </div>
+                <div class="card-content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga iure harum rerum necessitatibus aspernatur ex fugiat laboriosam vero perspiciatis, ad autem eum minima natus provident cupiditate neque! Consequuntur, iure eius.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <span class="card-icon">
+                        <i class="fas fa-file-invoice"></i>
+                    </span>
+                    <h2>Solo Travel Planning</h2>
+                </div>
+                <div class="card-content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit aliquid aspernatur eaque adipisci autem. Numquam quo quae officiis et culpa facere odit eaque sint sit suscipit! Rerum maiores nesciunt aperiam.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- Footer -->
+    <footer id="footer" class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 mb-4">
+                    <div class="footer-brand">
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="logo-circle me-2">
+                                <i class="bi bi-globe"></i>
+                            </div>
+                            <i class="fas fa-plane me-2">  RouteX</i>
+                        </div>
+                        <p class="text-light">Corporate business typically refers to large-scale manisola it enterprises or organizat</p>
+                      <div>
+                        <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-pinterest-p"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <h6 class="footer-title">Service Menu</h6>
+                    <ul class="footer-links">
+                        <li><a href="#"><i class="bi bi-check-circle me-2"></i>Mistakes To Avoid</a></li>
+                        <li><a href="#"><i class="bi bi-check-circle me-2"></i>Your Startup</a></li>
+                        <li><a href="#"><i class="bi bi-check-circle me-2"></i>Knew About Fonts</a></li>
+                        <li><a href="#"><i class="bi bi-check-circle me-2"></i>Knew About Fonts</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <h6 class="footer-title">Useful Link</h6>
+                    <ul class="footer-links">
+                        <li><a href="#"><i class="bi bi-chevron-right me-2"></i>Latest News</a></li>
+                        <li><a href="#"><i class="bi bi-chevron-right me-2"></i>Careers</a></li>
+                        <li><a href="#"><i class="bi bi-chevron-right me-2"></i>General Inquiries</a></li>
+                        <li><a href="#"><i class="bi bi-chevron-right me-2"></i>Case Studies</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <h6 class="footer-title">Gallery</h6>
+                    <div class="footer-gallery">
+                        <div class="row g-2">
+                            <div class="col-4">
+                                <img src="assets/bag.jpg" alt="Gallery 1" class="img-fluid rounded">
+                            </div>
+                            <div class="col-4">
+                                <img src="assets/bus.jpg" alt="Gallery 2" class="img-fluid rounded">
+                            </div>
+                            <div class="col-4">
+                                <img src="assets/globe.jpg" alt="Gallery 3" class="img-fluid rounded">
+                            </div>
+                            <div class="col-4">
+                                <img src="assets/bus.jpg" alt="Gallery 4" class="img-fluid rounded">
+                            </div>
+                            <div class="col-4">
+                                <img src="assets/bus.jpg" alt="Gallery 5" class="img-fluid rounded">
+                            </div>
+                            <div class="col-4">
+                                <img src="assets/bus.jpg" alt="Gallery 6" class="img-fluid rounded">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="footer-divider">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="footer-copyright">&copy; RRDevs 2024 | All Rights Reserved</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <div class="footer-legal">
+                        <a href="#">Terms & Condition</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="./src/script.js"></script>
+</body>
+</html>
